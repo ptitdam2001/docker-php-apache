@@ -6,7 +6,7 @@ MAINTAINER Damien Suhard <dsuhard@gmail.com>
 # Install
 RUN apt-get -y upgrade
 RUN apt-get update && \
-	apt-get install curl \
+	apt-get -y install curl \
 	apache2  \
 	php5 \
 	libapache2-mod-php5 \
